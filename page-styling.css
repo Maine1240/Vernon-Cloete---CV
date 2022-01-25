@@ -1,11 +1,26 @@
 .main-body-container{
-display:flex;
-row-gap:10px;
-column-gap:15px;
+    font-family: "Century Gothic";
+    display:flex;
+    align-self:center;
+    row-gap:10px;
+    column-gap:15px;
+}
+h4 {
+    font-size:26px;
+}
+.index tr {
+    width: 50px;
+}
+tr {
+    font-size: 14px;
+}
+th {
+    text-align:left;
 }
 #personal-detail-container {
     align-self:flex-start;
     background-color: rgb(196,193,193);
+    width:35%;
 }
 .header-container {
     display:flex;
