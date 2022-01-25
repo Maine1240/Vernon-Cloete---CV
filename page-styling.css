@@ -1,0 +1,22 @@
+.main-body-container{
+display:flex;
+row-gap:10px;
+column-gap:15px;
+}
+#personal-detail-container {
+    align-self:flex-start;
+    background-color: rgb(196,193,193);
+}
+.header-container {
+    display:flex;
+    align-self:center;
+}
+.footer-container{
+    display:flex;
+    align-self:center;
+}
+body {
+    display:flex;
+    align-self:center;
+    flex-direction:column;
+}
