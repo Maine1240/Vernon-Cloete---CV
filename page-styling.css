@@ -1,22 +1,101 @@
 .main-body-container{
-display:flex;
-row-gap:10px;
-column-gap:15px;
+    font-family: "Century Gothic";
+    display:flex;
+    
+    flex-direction:row;
+    gap: 10px;
+    /* padding:10px; */
+    max-width: 100%;
 }
-#personal-detail-container {
-    align-self:flex-start;
+h1, h2, h3, h4 {
+    margin-bottom: 1vw;
+    margin-top: 1.5vw;
+    color: rgb(31, 78, 121);
+}
+p {
+    font-size:1.25vw;
+}
+h4 {
+    font-size: 1.75vw;
+}
+
+td {
+    font-size: 1.25vw;
+}
+
+.matrix th{
+    border-bottom: 1px solid #000;
+}
+.matrix td:nth-child(even), .matrix td:nth-child(3) {
+    background-color: rgba(223, 223, 223, 0.753);
+}
+/* .matrix tr {
+    border;
+} */
+
+th {
+    text-align: left;
+    font-size: 1.25vw;
+    font-style: oblique;
+}
+
+.personal-detail-container {
+    /* align-self:flex-start;*/
+    /* flex-wrap:wrap; */
+    background-color: rgba(196,193,193,0.75);
+    padding-left: 8px;
+    padding-right: 8px;
+    max-width: 25%;
+}
+
+.exp-detail-container {
+    /* align-self:flex-start;*/
+    /* flex-wrap:wrap; */
     background-color: rgb(196,193,193);
+    padding-left: 8px;
+    padding-right: 8px;
+    max-width: 75%;
 }
+
+ul {
+    font-size: 1.25vw;
+}
+
 .header-container {
-    display:flex;
-    align-self:center;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    /* margin: auto; */
+    
 }
-.footer-container{
-    display:flex;
-    align-self:center;
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    /* margin: auto; */
 }
 body {
-    display:flex;
-    align-self:center;
-    flex-direction:column;
+    margin: auto;
+    width: 80%;
 }
+ a {
+     text-decoration: none;
+     color:black;
+     font-size: 1vw;
+     text-align: center;
+ }
+ a:hover {
+    color:blue;
+ }
+ .header {
+     max-width: 65%;
+     /* float: center; */
+ }
+ @media only screen and (max-width: 550px) {
+    /* For mobile phones: */
+    .personal-detail-container, .exp-detail-container, .header-container, .footer-container {
+      width: 100%;
+    }
+}
+
