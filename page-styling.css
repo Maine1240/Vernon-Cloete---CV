@@ -97,7 +97,9 @@ body {
  a:hover {
     color:blue;
  }
-
+ footer a{
+     color: rgb(31, 78, 121);
+ }
  .header {
      max-width: 25%;
  }
