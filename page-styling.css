@@ -18,7 +18,7 @@ h4 {
 }
 
 td {
-    font-size: 1.25vw;
+    font-size: 1.15vw;
 }
 
 .matrix th{
@@ -28,6 +28,12 @@ td {
     background-color: rgba(223, 223, 223, 0.753);
 }
 
+.workHistory{
+    color: #6e5494;
+}
+.workHistory a:hover {
+    color:#0072B1;
+}
 th {
     text-align: left;
     font-size: 1.25vw;
@@ -82,21 +88,31 @@ footer {
 
 body {
     margin: auto;
-    width: 80%;
-    background-image: url("/img/bg.jpg");
+    max-width: 79vw;
+    max-height: 100vw;
+    background-image: url("/img/bg-1.jpg");
     background-repeat: no-repeat;
 }
 
  a {
      text-decoration: none;
      color:black;
-     font-size: 1vw;
+     font-size: 1.15vw;
      text-align: center;
  }
 
  a:hover {
     color:blue;
  }
+ .fa-facebook-square:hover {
+     color: #3B5998;
+ }
+ .fa-linkedin-square:hover {
+    color: #0072B1;
+}
+.fa-github-square:hover {
+    color: #6e5494;
+}
  footer a{
      color: rgb(31, 78, 121);
  }
