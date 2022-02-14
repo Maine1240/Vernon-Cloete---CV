@@ -2,13 +2,19 @@
     font-family: "Century Gothic";
     display:flex;
     flex-direction:row;
-    gap: 10px;
+    gap: 1vw;
     max-width: 100%;
 }
 h1, h2, h3, h4 {
     margin-bottom: 1vw;
     margin-top: 1.5vw;
     color: rgb(31, 78, 121);
+}
+h1 {
+    font-size: 4vw;
+}
+h2 {
+    font-size: 3vw;
 }
 p {
     font-size:1.25vw;
@@ -71,11 +77,13 @@ ul {
     align-self: center;
 
 }
-.hr1 { width: 100%; 
+.hr1 { 
+    width: 100%; 
     height: 0.6vw;
     background-color: rgb(31, 78, 121);
 }
-.hr2 { width: 100%; 
+.hr2 { 
+    width: 100%; 
     height: 0.2vw;
     background-color: rgb(31, 78, 121);
 }
