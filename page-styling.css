@@ -17,65 +17,52 @@ h2 {
     font-size: 3vw;
 }
 p {
-    font-size:1.25vw;
+    font-size:/*1.25vw*/13px;
 }
 h4 {
     font-size: 1.75vw;
 }
 
-td {
-    font-size: 1.15vw;
-}
-
-.matrix th{
-    border-bottom: 1px solid #000;
-}
-.matrix td:nth-child(even), .matrix td:nth-child(3) {
-    background-color: rgba(223, 223, 223, 0.753);
-}
-
 .workHistory{
-    color: #6e5494;
+    color: #6600ff;
+    font-size: 13px;
 }
 .workHistory a:hover {
-    color:#0072B1;
+    color:#00ffb3;
 }
-th {
+#workExp th {
     text-align: left;
-    font-size: 1.25vw;
+    font-size: 14px;
     font-style: oblique;
 }
-
+#workExp td {
+    font-size: 13px;
+}
 .personal-detail-container {
     background-color: rgba(196,193,193,0.75);
     padding-left: 8px;
     padding-right: 8px;
-    max-width: 25%;
+    margin-right: 5px;
+    max-width: 40%; 
 }
-
 .exp-detail-container {
     background-color: rgb(196,193,193);
     padding-left: 8px;
     padding-right: 8px;
-    max-width: 75%;
+    max-width: 60%;
 }
-
 ul {
-    font-size: 1.25vw;
+    font-size: 13px;
 }
-
 .header-container {
     display: flex;
     justify-content: center;
-    align-self: center;
-
+    /* align-self: center; */
 }
-
 .footer-container {
     display: flex;
-    justify-content: center;
-    align-self: center;
-
+    /* justify-content: center; */
+    /* align-self: center; */
 }
 .hr1 { 
     width: 100%; 
@@ -87,13 +74,15 @@ ul {
     height: 0.2vw;
     background-color: rgb(31, 78, 121);
 }
-
+#references td, #personal-details td, #education td, #skills td, #interests td{
+    font-size: 12px;
+    margin-right: 2px;
+}
 footer {
-    font-size: 1.025vw;
+    font-size: 10px;
     font-family: 'Century Gothic';
     color: rgb(31, 78, 121);
 }
-
 body {
     margin: auto;
     max-width: 79vw;
@@ -101,36 +90,36 @@ body {
     background-image: url("/img/bg-1.jpg");
     background-repeat: no-repeat;
 }
-
- a {
-     text-decoration: none;
-     color:black;
-     font-size: 1.15vw;
-     text-align: center;
- }
-
- a:hover {
+a {
+    text-decoration: none;
+    color:black;
+    font-size: 1.15vw;
+    text-align: center;
+}
+.social-links {
+    font-size: 12px;
+}
+a:hover {
     color:blue;
- }
- .fa-facebook-square:hover {
-     color: #3B5998;
- }
- .fa-linkedin-square:hover {
+}
+.fa-facebook-square:hover {
+    color: #3B5998;
+}
+.fa-linkedin-square:hover {
     color: #0072B1;
 }
 .fa-github-square:hover {
     color: #6e5494;
 }
- footer a{
-     color: rgb(31, 78, 121);
- }
- .header {
-     max-width: 25%;
- }
-
- @media only screen and (max-width: 550px) {
+footer a{
+    color: rgb(31, 78, 121);
+}
+.header {
+    max-width: 25%;
+}
+@media only screen and (max-width: 550px) {
     /* For mobile phones: */
     .personal-detail-container, .exp-detail-container, .header-container, .footer-container {
-      width: 100%;
+        width: 100%;
     }
 }

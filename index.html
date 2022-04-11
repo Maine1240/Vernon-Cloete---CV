@@ -8,37 +8,31 @@
     <link rel = "stylesheet" href = "side-bar-styling.css">
     <link rel = "stylesheet" href = "page-styling.css">
     <link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-    
-   </head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Vernon Cloete</title>
 </head>
 <body>
     <div class = header-container>
-        <img class = header src = "img/header1.png">
+        <img class = header src = "img/header1.png" alt = "Logo">
     </div>
-
     <div class = main-body-container>
-
         <div class = personal-detail-container>
-            <img class = profile-img src = "img/pfp-placeholder.png" style = "max-width: 75%; display: flex; margin:auto; padding-top:20px" >
+            <img class = profile-img src = "img/pfp-placeholder.png" alt = "Mugshot" style = "max-width: 75%; display: flex; margin:auto; padding-top:20px" >
 
 <!-- PERSONALS -->
             <h4>PERSONAL DETAILS</h4>
-
             <table id = personal-details>
                 <tr>
-                    <td><i class="fa fa-calendar-o" style = "font-size:1.8vw"></i> May 11, 1999</td>
+                    <td><i class="fa fa-calendar-o" style = "font-size:1.5vw"></i> May 11, 1999</td>
                 </tr>
                 <tr>
-                    <td><i class="fa fa-home" style = "font-size:1.8vw"></i> 4 Tamarisk Court,<br> Delft South, Delft</td>
+                    <td><i class="fa fa-home" style = "font-size:1.5vw"></i> 4 Tamarisk Court, Delft <br>South, Delft, 7100</td>
                 </tr>
                 <tr>
-                    <td><i class="fa fa-language" style = "font-size:1.8vw"></i> English, Afrikaans</td>
+                    <td><i class="fa fa-language" style = "font-size:1.5vw"></i> English, Afrikaans</td>
                 </tr>
                 <tr>
-                    <td><i class="fa fa-mobile" style = "font-size:2vw"></i>  084 920 7778</td>
+                    <td><i class="fa fa-phone" style = "font-size:1.5vw"></i>  084 920 7778</td>
                 </tr>
                 <tr>
                     <td><i class="fa fa-envelope" style = "font-size:1.5vw"></i> cloete.vernon.9@gmail.com</td>
@@ -49,7 +43,7 @@
 
             <h4>EDUCATION</h4>
 
-            <table class = education>
+            <table id = "education">
                 <tr>
                     <td><b>2021</b> CapaCiTi ICT Enablers Programme</td>
                 </tr>
@@ -65,7 +59,7 @@
 
             <h4>KEY SKILLS</h4>
 
-            <table class = key-skills>
+            <table id = "skills">
                 <tr>
                     <td> - Microsoft Office Use</td>
                 </tr>
@@ -93,7 +87,7 @@
 
             <h4>HOBBIES AND INTERESTS</h4>
             
-            <table class = interests>
+            <table id = "interests">
                 <tr>
                     <td> - Gaming</td>
                 </tr>
@@ -104,30 +98,50 @@
 <!-- SOCIALS AND LINKS -->
             
         <h4>LINKS</h4>
-        <i class="fa fa-facebook-square" style = "font-size:2vw"></i><a href = "https://www.facebook.com/vernon.cloete.9/"> Vernon Cloete</a>
+        <i class="fa fa-facebook-square" style = "font-size:1.5vw"></i><a class = "social-links" href = "https://www.facebook.com/vernon.cloete.9/"> Vernon Cloete</a>
         <br>
-        <i class="fa fa-linkedin-square" style = "font-size:2vw"></i><a href = "https://www.linkedin.com/in/vernon-cloete-25112017/"> Vernon Cloete</a>
+        <i class="fa fa-linkedin-square" style = "font-size:1.5vw"></i><a class = "social-links" href = "https://www.linkedin.com/in/vernon-cloete-25112017/"> Vernon Cloete</a>
         <br>
-        <i class="fa fa-github-square" style = "font-size:2vw"></i><a href = "https://github.com/Maine1240"> Personal GitHub (Maine1240)</a>
+        <i class="fa fa-github-square" style = "font-size:1.5vw"></i><a class = "social-links" href = "https://github.com/Maine1240"> Personal GitHub (Maine1240)</a>
         <br>
-        <i class="fa fa-github-square" style = "font-size:2vw"></i><a href = "https://github.com/MS-AppFActory/Team2/tree/VernonDev"> MSAppFactory Repository - <i>(Vernon Dev Branch - CSV to JSON Converter)</i></a>
 
 <!-- REFERENCES -->
 
         <h4>REFERENCES</h4>
-        <table class = references>
-            <tr><td><b>Referee:</b> Mara Majiedt, Tygerberg Hospital</td></tr>
-            <tr><td><b>Designation:</b> Assistant Manager - Outpatients Department (Retired)</td></tr>
-            <tr><td><b>Contact:</b> 076 428 3217<br><br></td></tr>
-            
-            <tr><td><b>Referee:</b> Thandi Ndaba, Capaciti</td></tr><tr><td><b>Designation:</b> Candidate Manager</td></tr>
-            <tr><td><b>Contact:</b> 084 806 3374<br><br></td></tr>
-
-            <tr><td><b>Referee:</b> Diana Mtembo, Capaciti</td></tr><tr><td><b>Designation:</b> Tech Mentor</td></tr>
-            <tr><td><b>Contact:</b> diana.mtembo@capaciti.org.za<br><br></td></tr>
-
-            <tr><td><b>Referee:</b> Nepo Seboloki, Capaciti</td></tr><tr><td><b>Designation:</b> Project Manager</td></tr>
-            <tr><td><b>Contact:</b> nepo@capaciti.org.za</td></tr>
+        <table id = references>
+            <tr>
+                <td><b>Referee:</b> Mara Majiedt, Tygerberg Hospital</td>
+            </tr>
+            <tr>
+                <td><b>Designation:</b> Assistant Manager - Outpatients Department (Retired)</td>
+            </tr>
+            <tr>
+                <td><b>Contact:</b> 076 428 3217<br><br></td>
+            </tr>
+            <tr>
+                <td><b>Referee:</b> Thandi Ndaba, Capaciti</td></tr><tr><td><b>Designation:</b> Candidate Manager</td>
+                </tr>
+            <tr>
+                <td><b>Contact:</b> 084 806 3374<br><br></td>
+            </tr>
+            <tr>
+                <td><b>Referee:</b> Diana Mtembo, Capaciti</td>
+            </tr>
+            <tr>
+                <td><b>Designation:</b> Tech Mentor</td>
+            </tr>
+            <tr>
+                <td><b>Contact:</b> diana.mtembo@capaciti.org.za<br><br></td>
+            </tr>
+            <tr>
+                <td><b>Referee:</b> Clive Fihla, Microsoft AppFactory</td>
+            </tr>
+            <tr>
+                <td><b>Designation:</b> Project Manager</td>
+            </tr>
+            <tr>
+                <td><b>Contact:</b> clive.fihla@capaciti.org.za</td>
+            </tr>
         </table>        
         </div>
 
@@ -142,58 +156,6 @@
             
             <p>Driven young man, dedicated to my craft especially if I am passionate about something. Hardworking individual, good team- mate in both a gaming and professional setting. I’m easy to work with and will take the lead on any team-based project given. I try to be better every day, whether through learning from my experiences, or just gaining more knowledge in whatever field I find interesting. I’ve grown up really into a lot of things, but mainly computers, so a lot of what I know I have taught myself, and just combined all of that with whatever I’ve gained in school or during my working experiences. I’m always trying to do everything to the best of my abilities, and if I feel I need to improve on something, I’ll research ways to do it.</p>
 
-            <h4>SKILLS MATRIX</h4>
-
-            <table class = index>
-                <tr>
-                    <th>LEVELS INDEX</th>
-                </tr>
-                <tr><td>1. Training Recieved/Self-study done<br>2. Limited Practical Experience<br>3. Solid Practical Experience<br>4. Well Versed<br>5. Expert</td></tr>
-            </table>
-
-            <table class = matrix style = "width:100%">
-                <tr>
-                    <th>SKILL</th>
-                    <th>LEVEL</th>
-                    <th>MONTHS/YEARS EXP.</th>
-                    <th>LAST USED</th>
-                </tr>
-                <tr id = item-1>
-                    <td>C#<br>
-                        Power Apps<br>
-                        PowerBI<br>
-                        Power Automate<br>
-                        Python<br>
-                        HTML<br>
-                        CSS<br>
-                        SQL</td>
-                    <td>2<br>
-                        3<br>
-                        2<br>
-                        2<br>
-                        2<br>
-                        3<br>
-                        3<br>
-                        1</td>
-                    <td>6 Months<br>
-                        6 Months<br>
-                        3 Months<br>
-                        3 Months<br>
-                        9 Months<br>
-                        2 Years<br>
-                        2 Years<br>
-                        3 Months</td>
-                    <td>Currently<br>
-                        Dec 2021<br>
-                        Dec 2021<br>
-                        Dec 2021<br>
-                        May 2021<br>
-                        Currently<br>
-                        Currently<br>
-                        May 2021</td>
-                </tr>
-            </table>
-
             <h4>ACHIEVEMENTS</h4>
             <ul>
                 <li>Completed a short course for Microsoft Office Ward and PowerPoint.</li>
@@ -203,65 +165,68 @@
             </ul>
 
             <h4>WORK EXPERIENCE</h4>
-            
-            <table><!-- MSAppFactory -->
-                <tr>
-                    <th>Microsoft AppFactory<br>Software Developer - Intern<br>1st June 2021 - Current</th>
-                <tr>
-                    <td>
-                        •	Building applications using various tools and programming languages (e.g. Power Apps, Power Automate, C#, HTML (HyperText MarkUp Language) & CSS (Cascading Style Sheets) etc.)<br>
-                        •	Built a CSV to JSON converter entirely out of C# (All code on <a class = workHistory href = "https://github.com/MS-AppFActory/Team2/tree/VernonDev">GitHub</a>).<br>
-                        •	Rebuilt this entire CV using HTML and CSS (Code available on <a class = workHistory href = "https://github.com/Maine1240/Vernon-Cloete---CV">GitHub</a>).
-                    </td>
-                </tr>
-            </table>
-            <p></p>
-            
-            <table><!--CapaCiTi-->
-                <tr>
-                    <th>CapaCiTi<br>ICT Enablers Internship<br>1st November 2020 - 31st May 2021</th>
-                </tr>
-                <tr>
-                    <td>•	Was being taught technical skills that will help me become a Software/Web Developer.<br>
-                    •	Learnt the importance of teamwork and building your professional brand.<br>
-                    •	Built a real-time chat app out of Javascript and CSS (Currently on <a class = workHistory href = "https://github.com/Maine1240/RRWOF">GitHub</a>).<br>
-                    •	Built a website as part of learning web development, for a school (Currently deployed through <a class = workHistory href = "https://mzamwebya.netlify.app/">Netlify</a>).
-                    </td>
-                </tr>
-            </table>
-            <p></p>
-            <table><!--TriLink-->
-                <tr>
-                    <th>TriLink Dynamics, Cape Town<br>Temporary Merchandiser<br>December 2016 - January 2017<br>December 2019 - 12th January 2020</th>
-                </tr>
-                <tr>
-                    <td>•	Supporting my senior and ensuring my stock was constantly filled.<br>
-                    •	Making sure that there is always stock in the stockroom, reporting if there isn’t to my senior, Floor Manager, or Stock Room Manager.<br>
-                    •	Assisting the customers if they need directions to a specific isle in the store.
-                    </td>
-                </tr>
-            </table>
-            <p></p>
-            <table><!--Tygerberg Hospital-->
-                <tr>
-                    <th>Tygerberg Hospital, EPWP, Cape Town<br>Temporary Merchandiser<br>December 2016 - January 2017<br>December 2019 - 12th January 2020</th>
-                </tr>
-                <tr>
-                    <td>•	Scheduling and coordinating meetings and any appointments.<br>
-                    •	Emailing on behalf of my superiors (Assistant Manager/Registered Professional Nurse for the specific ward/Department I was placed in).<br>
-                    •	Handling queries brought to the office (leave balances, leave applications, pay slips etc.).<br>
-                    •	Standing in for my mentor (Senior Admin Clerk) of my department if they are on leave for any reason.<br>
-                    •	Data Capturing.
-                    </td>
-                </tr>
-            </table>
+            <div id = "workExp">
+                <table><!-- MSAppFactory -->
+                    <tr>
+                        <th>Microsoft AppFactory<br>Software Developer - Intern<br>1st June 2021 - 31st March 2022</th>
+                    <tr>
+                        <td>
+                            •	Building applications using various tools and programming languages (e.g. Power Apps, Power Automate, C#, HTML (HyperText MarkUp Language) & CSS (Cascading Style Sheets) etc.)<br>
+                            <!-- Will repopulate the bottom once I have the code reuploaded to my personal account on a public repository instead of when it was only accessible to a few people in a group -->
+                            <!-- •	Built a CSV to JSON converter entirely out of C# (All code on <a class = workHistory href = "https://github.com/MS-AppFActory/Team2/tree/VernonDev">GitHub</a>).<br> -->
+                            •	Rebuilt this entire CV using HTML and CSS (Code available on <a class = workHistory href = "https://github.com/Maine1240/Vernon-Cloete---CV">GitHub</a>).
+                        </td>
+                    </tr>
+                </table>
+                <p></p>
+                
+                <table><!--CapaCiTi-->
+                    <tr>
+                        <th>CapaCiTi<br>ICT Enablers Internship<br>1st November 2020 - 31st May 2021</th>
+                    </tr>
+                    <tr>
+                        <td>•	Was being taught technical skills that will help me become a Software/Web Developer.<br>
+                        •	Learnt the importance of teamwork and building your professional brand.<br>
+                        •	Built a real-time chat app out of Javascript and CSS (Currently on <a class = workHistory href = "https://github.com/Maine1240/RRWOF">GitHub</a>).<br>
+                        •	Built a website as part of learning web development, for a school (Currently deployed through <a class = workHistory href = "https://mzamwebya.netlify.app/">Netlify</a>).
+                        </td>
+                    </tr>
+                </table>
+                <p></p>
+                <table><!--TriLink-->
+                    <tr>
+                        <th>TriLink Dynamics, Cape Town<br>Temporary Merchandiser<br>December 2016 - January 2017<br>December 2019 - 12th January 2020</th>
+                    </tr>
+                    <tr>
+                        <td>•	Supporting my senior and ensuring my stock was constantly filled.<br>
+                        •	Making sure that there is always stock in the stockroom, reporting if there isn’t to my senior, Floor Manager, or Stock Room Manager.<br>
+                        •	Assisting the customers if they need directions to a specific isle in the store.
+                        </td>
+                    </tr>
+                </table>
+                <p></p>
+                <table><!--Tygerberg Hospital-->
+                    <tr>
+                        <th>Tygerberg Hospital, EPWP, Cape Town<br>Temporary Merchandiser<br>December 2016 - January 2017<br>December 2019 - 12th January 2020</th>
+                    </tr>
+                    <tr>
+                        <td>•	Scheduling and coordinating meetings and any appointments.<br>
+                        •	Emailing on behalf of my superiors (Assistant Manager/Registered Professional Nurse for the specific ward/Department I was placed in).<br>
+                        •	Handling queries brought to the office (leave balances, leave applications, pay slips etc.).<br>
+                        •	Standing in for my mentor (Senior Admin Clerk) of my department if they are on leave for any reason.<br>
+                        •	Data Capturing.
+                        </td>
+                    </tr>
+                </table>
+            </div>
         </div>
 
     </div>
+    <!--Seperation between body and footer-->
     <hr class = hr1>
     <hr class = hr2>
     <div class = footer-container>
-        <!-- <img src = "img/footer.png"> -->
+
         
         <footer>
              <i class = "fa fa-building"></i> Capaciti Campus Cape Town | <i class="fa fa-phone" ></i> +27 21 003 7579 | <i class="fa fa-bookmark" ></i><a href = "https://www.citi.org.za/capaciti"> https://www.citi.org.za/capaciti</a> | <i class = "fa fa-heart"></i> Page designed by Vernon Cloete
